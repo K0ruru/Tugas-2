@@ -12,6 +12,7 @@
 	background-size: cover;
 	background-position: center center;
 	position: relative;
+	transition: background-image 0.5s ease-in-out;
 }
 
 .preview::before {
@@ -48,6 +49,7 @@
 .banner__img {
 	max-width: 20%;
 	z-index: 2;
+	transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .banner__img img {

@@ -22,6 +22,15 @@ const slides = [
 		loanLink: "link-to-loan",
 	},
 	{
+		title: "Vagabond",
+		description:
+			"A lazy student and a straight-laced teacher. At first glance, they seem like they are on bad terms, but things get different after classes... ",
+		image: "../Public/Images/Vagabond.webp",
+		tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
+		link: "books.html?id=6",
+		loanLink: "link-to-loan",
+	},
+	{
 		title: "Komi-san Can't Communicate",
 		description:
 			"It's Shouko Komi's first day at the prestigious Itan Private High School, and she has already risen to the status of the school's Madonna. With long black hair and a tall, graceful appearance, she captures the attention of anyone who comes across her. There's just one problem though—despite",
@@ -57,15 +66,6 @@ const slides = [
 		link: "books.html?id=5",
 		loanLink: "link-to-loan",
 	},
-	{
-		title: "Vagabond",
-		description:
-			"A lazy student and a straight-laced teacher. At first glance, they seem like they are on bad terms, but things get different after classes... ",
-		image: "../Public/Images/Vagabond.webp",
-		tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
-		link: "books.html?id=6",
-		loanLink: "link-to-loan",
-	},
 ];
 
 function updateSlide() {
@@ -87,6 +87,10 @@ function updateSlide() {
 	tagsList.innerHTML = slide.tags
 		.map((tag) => `<li class="tag">${tag}</li>`)
 		.join("");
+
+	setTimeout(() => {
+		preview.style.backgroundImage = "url('" + slide.image + "')";
+	}, 100);
 
 	viewInfoButton.href = slide.link;
 	loanButton.href = slide.loanLink;
