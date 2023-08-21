@@ -1,5 +1,5 @@
 .banner {
-	margin-top: 100px;
+	margin-top: 200px;
 }
 
 .preview {
@@ -104,10 +104,26 @@
 	cursor: pointer;
 	border-radius: 5px;
 	font-weight: 500;
+	outline: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+.preview__button:hover {
+	background-color: transparent;
+	outline: 2px solid white;
+	color: white;
 }
 
 .loan {
 	background-color: rgb(220, 48, 48);
+	outline: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+.loan:hover {
+	background-color: transparent;
+	outline: 2px solid rgb(220, 48, 48);
+	color: rgb(220, 48, 48);
 }
 
 .buttons button {
@@ -165,6 +181,7 @@
 	color: white;
 	margin-bottom: 10px;
 	width: 450px;
+	height: 230px;
 	justify-content: flex-start;
 }
 
@@ -252,4 +269,8 @@
 
 .book__text p {
 	font-weight: 300;
+}
+
+.book {
+	margin-top: 200px;
 }
