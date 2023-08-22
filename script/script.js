@@ -203,12 +203,12 @@ const prevButton = document.getElementById("prevButton");
 const nextButton = document.getElementById("nextButton");
 
 document.getElementById("nextButton").addEventListener("click", () => {
-  index = (index + 1) % 5;
+  index = (index + 1) % 4;
   updateSlide();
 });
 
 document.getElementById("prevButton").addEventListener("click", () => {
-  index = (index - 1 + 5) % 5;
+  index = (index - 1 + 4) % 4;
   updateSlide();
 });
 
