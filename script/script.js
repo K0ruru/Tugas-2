@@ -16,7 +16,7 @@ const slides = [
     ],
     link: "books.html?id=1",
     loanLink: "link-to-loan",
-    todayViews: 2444,
+    todayViews: 44644,
     weekViews: 53241,
     monthViews: 102901,
   },
@@ -79,6 +79,26 @@ const slides = [
     todayViews: 1340,
     weekViews: 22241,
     monthViews: 300901,
+  },
+  {
+    id: "7",
+    title: "Jujutsu Kaisen",
+    description:
+      "Hidden in plain sight, an age-old conflict rages on. Supernatural monsters known as Curses terrorize humanity from the shadows, and powerful humans known as Jujutsu sorcerers use mystical arts to exterminate them. When high school student Yuuji Itadori finds a dried-up finger of the legendary",
+    image: "../Public/Images/JJK.jpg",
+    tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
+    link: "books  .html?id=7",
+    loanLink: "link-to-loan",
+  },
+  {
+    id: "8",
+    title: "Solo Leveling",
+    description:
+      "Ten years ago, the Gate appeared and connected the real world with the realm of magic and monsters. To combat these vile beasts, ordinary people received superhuman powers and became known as Hunters. Twenty-year-old Sung Jin-Woo is one such Hunter, but he is known as the Worlds",
+    image: "../Public/Images/Solo.jpg",
+    tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
+    link: "books.html?id=8",
+    loanLink: "link-to-loan",
   },
 ];
 
