@@ -1,371 +1,371 @@
 .banner {
-  margin-top: 200px;
+	margin-top: 200px;
 }
 
 .preview {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  overflow: hidden;
-  height: 550px;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  transition: background-image 0.5s ease-in-out;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	overflow: hidden;
+	height: 550px;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	transition: background-image 0.5s ease-in-out;
 }
 
 .preview::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: inherit;
-  background-size: cover;
-  background-position: center center;
-  filter: blur(10px);
-  z-index: 1;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: inherit;
+	background-size: cover;
+	background-position: center center;
+	filter: blur(10px);
+	z-index: 1;
 }
 
 .preview::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(
-    69,
-    69,
-    69,
-    0.512
-  ); /* Adjust the color and opacity as needed */
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(
+		69,
+		69,
+		69,
+		0.512
+	); /* Adjust the color and opacity as needed */
 
-  z-index: 1;
+	z-index: 1;
 }
 
 .banner__img {
-  max-width: 20%;
-  z-index: 2;
-  transition: transform 0.5s ease, opacity 0.5s ease;
+	max-width: 20%;
+	z-index: 2;
+	transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .banner__img img {
-  width: 100%;
-  rotate: 15deg;
-  outline: 20px solid white;
-  z-index: 1;
+	width: 100%;
+	rotate: 15deg;
+	outline: 20px solid white;
+	z-index: 1;
 }
 
 .banner__book__desc {
-  position: relative;
-  max-width: 40%;
-  color: white;
-  z-index: 2;
+	position: relative;
+	max-width: 40%;
+	color: white;
+	z-index: 2;
 }
 
 .banner__book__desc h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-  font-weight: 700;
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 .banner__book__desc p {
-  font-size: 16px;
-  margin-bottom: 20px;
-  font-weight: 200;
+	font-size: 16px;
+	margin-bottom: 20px;
+	font-weight: 200;
 }
 
 .tags {
-  display: flex;
-  list-style: none;
+	display: flex;
+	list-style: none;
 }
 
 .tag {
-  margin: 0px 10px;
-  outline: 2px solid rgb(220, 48, 48);
-  padding: 5px 10px;
-  border-radius: 5px;
-  font-weight: 200;
-  font-size: 13px;
+	margin: 0px 10px;
+	outline: 2px solid rgb(220, 48, 48);
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-weight: 200;
+	font-size: 13px;
 }
 
 .tag:first-child {
-  margin-left: 0px;
+	margin-left: 0px;
 }
 
 .preview__button {
-  margin-top: 30px;
-  margin-right: 15px;
-  border: none;
-  padding: 10px 20px;
-  width: 100px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: 500;
-  outline: 2px solid transparent;
-  transition: all 0.3s ease;
+	margin-top: 30px;
+	margin-right: 15px;
+	border: none;
+	padding: 10px 20px;
+	width: 100px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-weight: 500;
+	outline: 2px solid transparent;
+	transition: all 0.3s ease;
 }
 
 .preview__button:hover {
-  background-color: transparent;
-  outline: 2px solid white;
-  color: white;
+	background-color: transparent;
+	outline: 2px solid white;
+	color: white;
 }
 
 .loan {
-  background-color: rgb(220, 48, 48);
-  outline: 2px solid transparent;
-  transition: all 0.3s ease;
+	background-color: rgb(220, 48, 48);
+	outline: 2px solid transparent;
+	transition: all 0.3s ease;
 }
 
 .loan:hover {
-  background-color: transparent;
-  outline: 2px solid rgb(220, 48, 48);
-  color: rgb(220, 48, 48);
+	background-color: transparent;
+	outline: 2px solid rgb(220, 48, 48);
+	color: rgb(220, 48, 48);
 }
 
 .buttons button {
-  font-size: 20px;
-  font-weight: 700;
-  width: 50px;
-  border-radius: 5px;
-  text-align: center;
-  border: none;
+	font-size: 20px;
+	font-weight: 700;
+	width: 50px;
+	border-radius: 5px;
+	text-align: center;
+	border: none;
 }
 
 .buttons button {
-  margin-top: 15px;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
+	margin-top: 15px;
+	transition: all 0.2s ease-in-out;
+	cursor: pointer;
 }
 
 .buttons button:hover {
-  background-color: rgb(220, 48, 48);
+	background-color: rgb(220, 48, 48);
 }
 
 .main {
-  margin-top: 100px;
+	margin-top: 100px;
 }
 
 .main__content {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 
 .latest__update {
-  width: 1000px;
-  margin-right: 50px;
+	width: 1000px;
+	margin-right: 50px;
 }
 
 .most__viewed {
-  width: 600px;
+	width: 600px;
 }
 
 .latest__header h1 {
-  color: white;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
+	color: white;
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 10px;
 }
 
 .book__container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .tab {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
 }
 .tablinks {
-  width: 100%;
-  border: none;
-  font-size: 20px;
-  padding: 10px 20px;
-  background-color: rgb(29, 29, 29);
-  color: white;
-  cursor: pointer;
+	width: 100%;
+	border: none;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: rgb(29, 29, 29);
+	color: white;
+	cursor: pointer;
 }
 
 .tablinks.active {
-  background-color: rgb(220, 48, 48);
+	background-color: rgb(220, 48, 48);
 }
 
 .tablinks:first-child {
-  border-top-left-radius: 7px;
-  border-bottom-left-radius: 7px;
+	border-top-left-radius: 7px;
+	border-bottom-left-radius: 7px;
 }
 
 .tablinks:last-child {
-  border-top-right-radius: 7px;
-  border-bottom-right-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-right-radius: 7px;
 }
 
 .book__box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: rgb(29, 29, 29);
-  padding: 20px;
-  border-radius: 20px;
-  color: white;
-  margin-bottom: 10px;
-  width: 445px;
-  height: 230px;
-  justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(29, 29, 29);
+	padding: 20px;
+	border-radius: 20px;
+	color: white;
+	margin-bottom: 10px;
+	width: 445px;
+	height: 230px;
+	justify-content: flex-start;
 }
 
 .book__box li {
-  outline: none;
-  padding: 0;
-  margin: 0;
-  margin-right: 5px;
-  color: rgb(167, 167, 167);
+	outline: none;
+	padding: 0;
+	margin: 0;
+	margin-right: 5px;
+	color: rgb(167, 167, 167);
 }
 
 .book__desc h2 {
-  font-weight: 700;
+	font-weight: 700;
 }
 
 .book__box ul {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .book__box img {
-  max-width: 150px;
-  margin-right: 20px;
+	max-width: 150px;
+	margin-right: 20px;
 }
 
 .book__button {
-  display: flex;
-  flex-direction: column;
-  margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 30px;
 }
 
 .book__button button {
-  margin: 2px 0;
+	margin: 2px 0;
 }
 
 .viewed__header h1 {
-  color: white;
-  font-weight: 700;
-  font-size: 32px;
-  margin-bottom: 10px;
+	color: white;
+	font-weight: 700;
+	font-size: 32px;
+	margin-bottom: 10px;
 }
 
 .book__content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  margin: 80px 0;
-  background-color: rgb(29, 29, 29);
-  padding: 30px;
-  border-radius: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	margin: 80px 0;
+	background-color: rgb(29, 29, 29);
+	padding: 30px;
+	border-radius: 10px;
 }
 
 .book__content img {
-  max-width: 450px;
-  margin-right: 20px;
+	max-width: 450px;
+	margin-right: 20px;
 }
 
 .book__text {
-  max-width: 500px;
+	max-width: 500px;
 }
 
 .book__text h2 {
-  font-weight: 700;
-  font-size: 50px;
-  margin-bottom: 5px;
+	font-weight: 700;
+	font-size: 50px;
+	margin-bottom: 5px;
 }
 
 .book__text ul {
-  list-style: none;
-  display: flex;
-  margin-bottom: 20px;
+	list-style: none;
+	display: flex;
+	margin-bottom: 20px;
 }
 
 .book__text li {
-  margin-right: 10px;
-  color: rgb(195, 193, 193);
-  font-weight: 200;
-  font-style: italic;
+	margin-right: 10px;
+	color: rgb(195, 193, 193);
+	font-weight: 200;
+	font-style: italic;
 }
 
 .book__text li:last-child {
-  margin-right: 0px;
+	margin-right: 0px;
 }
 
 .book__text p {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .book {
-  margin-top: 200px;
+	margin-top: 200px;
 }
 
 .most__viewed__box {
-  display: flex;
-  color: white;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(29, 29, 29);
-  padding: 10px 14px;
-  border-radius: 7px;
-  margin-bottom: 15px;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	align-items: center;
+	background-color: rgb(29, 29, 29);
+	padding: 10px 14px;
+	border-radius: 7px;
+	margin-bottom: 15px;
 }
 
 .most__viewed__book {
-  display: flex;
-  align-items: center;
-  max-width: 430px;
+	display: flex;
+	align-items: center;
+	max-width: 430px;
 }
 
-.most__viewed__box img {
-  max-width: 100px;
-  margin-right: 20px;
+.most__viewed__ranks {
+	max-width: 100px;
+	margin-right: 20px;
 }
 
 .most__viewed__desc h1 {
-  font-weight: 700;
-  margin-bottom: 6px;
+	font-weight: 700;
+	margin-bottom: 6px;
 }
 
 .most__viewed__desc ul {
-  display: flex;
-  flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .most__viewed__desc li {
-  margin: 0;
-  margin-right: 8px;
-  margin-bottom: 8px;
+	margin: 0;
+	margin-right: 8px;
+	margin-bottom: 8px;
 }
 
 .most__viewed__ranking {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .most__viewed__ranking h3 {
-  font-weight: 700;
-  font-size: 30px;
-  border: 5px solid rgb(220, 48, 48);
-  padding: 1px 10px;
-  margin-bottom: 10px;
+	font-weight: 700;
+	font-size: 30px;
+	border: 5px solid rgb(220, 48, 48);
+	padding: 1px 10px;
+	margin-bottom: 10px;
 }
 
 .most__viewed__ranking p {
-  font-weight: 300;
-  text-align: center;
+	font-weight: 300;
+	text-align: center;
 }

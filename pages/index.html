@@ -1,107 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/general.css" />
-    <link rel="stylesheet" href="../css/styles.css" />
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/general.css" />
+		<link rel="stylesheet" href="../css/styles.css" />
 
-    <title>Bobbie's Book's</title>
-  </head>
-  <body>
-    <nav class="navbar">
-      <div class="wrapper">
-        <div class="nav__content">
-          <div class="logo">
-            <a href="">
-              <img src="../Public/Images/Logo.png" alt="" />
-            </a>
-          </div>
-          <ul class="nav__links">
-            <li class="nav__link"><a href="">HOME</a></li>
-            <li class="nav__link"><a href="#books">BOOKS</a></li>
-            <li class="nav__link">
-              <a href="../pages/contact.html">CONTACT US</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+		<title>Bobbie's Book's</title>
+	</head>
+	<body>
+		<nav class="navbar">
+			<div class="wrapper">
+				<div class="nav__content">
+					<div class="logo">
+						<a href="">
+							<img src="../Public/Images/Logo.png" alt="" />
+						</a>
+					</div>
+					<ul class="nav__links">
+						<li class="nav__link"><a href="">HOME</a></li>
+						<li class="nav__link"><a href="#books">BOOKS</a></li>
+						<li class="nav__link">
+							<a href="../pages/contact.html">CONTACT US</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 
-    <section class="banner container">
-      <div class="wrapper">
-        <div class="banner__content">
-          <div class="preview">
-            <div class="banner__book__desc">
-              <h1></h1>
-              <p></p>
-              <ul class="tags">
-                <li class="tag"></li>
-                <li class="tag">y</li>
-                <li class="tag"></li>
-                <li class="tag"></li>
-                <li class="tag"></li>
-                <li class="tag"></li>
-              </ul>
-              <a class="id__link" href=""
-                ><button class="preview__button">View Info</button></a
-              >
-              <a href=""><button class="preview__button loan">Loan</button></a>
-            </div>
-            <div class="banner__img">
-              <img src="../Public/Images/OPM.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-        <div class="buttons">
-          <button id="prevButton"><</button>
-          <button id="nextButton">></button>
-        </div>
-      </div>
-    </section>
+		<section class="banner container">
+			<div class="wrapper">
+				<div class="banner__content">
+					<div class="preview">
+						<div class="banner__book__desc">
+							<h1></h1>
+							<p></p>
+							<ul class="tags">
+								<li class="tag"></li>
+								<li class="tag">y</li>
+								<li class="tag"></li>
+								<li class="tag"></li>
+								<li class="tag"></li>
+								<li class="tag"></li>
+							</ul>
+							<a class="id__link" href=""
+								><button class="preview__button">View Info</button></a
+							>
+							<a href=""><button class="preview__button loan">Loan</button></a>
+						</div>
+						<div class="banner__img">
+							<img src="../Public/Images/OPM.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+				<div class="buttons">
+					<button id="prevButton"><</button>
+					<button id="nextButton">></button>
+				</div>
+			</div>
+		</section>
 
-    <section class="main container">
-      <div class="wrapper">
-        <div class="main__content">
-          <div class="latest__update" id="books">
-            <div class="latest__header">
-              <h1>Latest Updates</h1>
-            </div>
-            <div class="book__container"></div>
-          </div>
-          <div class="most__viewed">
-            <div class="viewed__header">
-              <h1>Most Viewed</h1>
-            </div>
-            <div class="tab">
-              <button class="tablinks active">Today</button>
-              <button class="tablinks">Week</button>
-              <button class="tablinks">Month</button>
-            </div>
-            <div class="most__viewed__container">
-              <div class="most__viewed__box">
-                <div class="most__viewed__book">
-                  <img src="../Public/Images/OPM.jpg" alt="" />
-                  <div class="most__viewed__desc">
-                    <h1>One-Punch Man</h1>
-                    <ul class="tags">
-                      <li class="tag">Action</li>
-                      <li class="tag">Comedy</li>
-                      <li class="tag">Super Power</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="most__viewed__ranking">
-                  <h3>1</h3>
-                  <p>20,440 VIEWS</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <script src="../script/script.js"></script>
-    <script src="../script/books.js"></script>
-  </body>
+		<section class="main container">
+			<div class="wrapper">
+				<div class="main__content">
+					<div class="latest__update" id="books">
+						<div class="latest__header">
+							<h1>Latest Updates</h1>
+						</div>
+						<div class="book__container"></div>
+					</div>
+					<div class="most__viewed">
+						<div class="viewed__header">
+							<h1>Most Viewed</h1>
+						</div>
+						<div id="tabsContainer" class="tab">
+							<button id="todayTab" class="tablinks active">Today</button>
+							<button id="weekTab" class="tablinks">Week</button>
+							<button id="monthTab" class="tablinks">Month</button>
+						</div>
+						<div class="most__viewed__container">
+							<div class="most__viewed__box">
+								<div class="most__viewed__book">
+									<img src="../Public/Images/OPM.jpg" alt="" />
+									<div class="most__viewed__desc">
+										<h1>One-Punch Man</h1>
+										<ul class="tags">
+											<li class="tag">Action</li>
+											<li class="tag">Comedy</li>
+											<li class="tag">Super Power</li>
+										</ul>
+									</div>
+								</div>
+								<div class="most__viewed__ranking">
+									<h3>1</h3>
+									<p>20,440 VIEWS</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="../script/script.js"></script>
+		<script src="../script/books.js"></script>
+	</body>
 </html>
