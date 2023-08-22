@@ -192,6 +192,7 @@
 	background-color: rgb(29, 29, 29);
 	color: white;
 	cursor: pointer;
+	transition: all 0.3s ease-in-out;
 }
 
 .tablinks.active {

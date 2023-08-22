@@ -90,6 +90,9 @@ const slides = [
 		tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
 		link: "books.html?id=7",
 		loanLink: "link-to-loan",
+		todayViews: 27740,
+		weekViews: 51241,
+		monthViews: 342301,
 	},
 	{
 		id: "8",
@@ -100,6 +103,9 @@ const slides = [
 		tags: ["Action", "Adventure", "Drama", "Historical", "Samurai"],
 		link: "books.html?id=8",
 		loanLink: "link-to-loan",
+		todayViews: 340,
+		weekViews: 21341,
+		monthViews: 412312,
 	},
 ];
 
